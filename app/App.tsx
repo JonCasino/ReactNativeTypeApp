@@ -21,7 +21,9 @@ const App: FC = () => {
   const [searchQuery, setSearchQuery] = useState<string>('');
   const Stack = createStackNavigator();
   return (
-    
+    <Stack.Navigator>
+      
+    </Stack.Navigator>
   );
 };
 
